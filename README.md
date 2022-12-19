@@ -45,6 +45,7 @@ QIIME2 pipeline (ref) used to produce the IM data.
 
 `qiime taxa collapse --i-table /nlustre/users/tiffdp/africanim/2019_samples/2019_table.qza --i-taxonomy /nlustre/users/tiffdp/africanim/2019_samples/2019pt_taxonomy.qza --p-level 7 --o-collapsed-table /nlustre/users/tiffdp/africanim/2019_samples/2019pt_phyla_table.qza`
 
+### Relative Frequency
 `qiime feature-table relative-frequency --i-table /nlustre/users/tiffdp/africanim/2019_samples/2019pt_phyla_table.qza --o-relative-frequency-table /nlustre/users/tiffdp/africanim/2019_samples/2019pt_rel_phyla_table.qza`
 
 `qiime tools export --input-path /nlustre/users/tiffdp/africanim/2019_samples/2019pt_rel_phyla_table.qza --output-path /nlustre/users/tiffdp/africanim/2019_samples/relphylapt`

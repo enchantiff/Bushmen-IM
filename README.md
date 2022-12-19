@@ -4,6 +4,7 @@ Scripts used to analyse temporal changes to the intestinal microbiome of the Ju�
 ## QIIME2
 QIIME2 pipeline (ref) used to produce the IM data.
 
+###Importing into QIIME2
 `qiime tools import –type SampleData[PairedEndSequencesWithQuality] --input-path /nlustre/users/tiffdp/africanim/2019_samples/manifest.txt –-output-path /nlustre/users/tiffdp/africanim/2019_samples/2019_demux.qza –-input-format PairedEndFastqManifestPhred33V2`
 
 `qiime demux summarize --i-data /nlustre/users/tiffdp/africanim/2019_samples/2019_demux.qza --o-visualization /nlustre/users/tiffdp/africanim/2019_samples/2019_demux.qzv`

@@ -1,4 +1,4 @@
-# Bushmen-IM
+# JuHoan-IM
 Scripts used to analyse temporal changes to the intestinal microbiome of the Ju’|hoansi bushmen of Namibia. See flow diagram below:
 
 ## QIIME2

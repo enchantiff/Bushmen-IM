@@ -77,7 +77,7 @@ QIIME2 pipeline (ref) used to produce the IM data.
 ### Exported Tree
 `qiime tools export --input-path /nlustre/users/tiffdp/africanim/2019_samples/iqt19p_rooted_tree.qza --output-path /nlustre/users/tiffdp/africanim/2019_samples/19_exported_tree`
 
-##References
+## References
 1.	Bolyen, E., et al. 2019. Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2. Nature biotechnology, 37(8):852-857.
 2.	Callahan, B.J., et al. 2016. DADA2: High-resolution sample inference from Illumina amplicon data. Nature methods, 13(7):581-583.
 3.	Quast, C., et al. 2012. The SILVA ribosomal RNA gene database project: improved data processing and web-based tools. Nucleic acids research, 41(D1):D590-D596.

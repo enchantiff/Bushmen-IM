@@ -1,5 +1,7 @@
 # Bushmen-IM
 Scripts used to analyse temporal changes to the intestinal microbiome of the Ju’|hoansi bushmen of Namibia. See flow diagram below:
+<img width="494" alt="Screenshot 2023-04-29 at 13 49 44" src="https://user-images.githubusercontent.com/84008482/235301009-ba6a15a7-f19b-4d5d-b239-a580fa1432c4.png">
+
 
 ## QIIME2
 QIIME2 pipeline (ref) used to produce the IM data.
@@ -74,3 +76,13 @@ QIIME2 pipeline (ref) used to produce the IM data.
 
 ### Exported Tree
 `qiime tools export --input-path /nlustre/users/tiffdp/africanim/2019_samples/iqt19p_rooted_tree.qza --output-path /nlustre/users/tiffdp/africanim/2019_samples/19_exported_tree`
+
+##References
+1.	Bolyen, E., et al. 2019. Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2. Nature biotechnology, 37(8):852-857.
+2.	Callahan, B.J., et al. 2016. DADA2: High-resolution sample inference from Illumina amplicon data. Nature methods, 13(7):581-583.
+3.	Quast, C., et al. 2012. The SILVA ribosomal RNA gene database project: improved data processing and web-based tools. Nucleic acids research, 41(D1):D590-D596.
+4.	Katoh, K., Misawa, K., Kuma, K.i. & Miyata, T. 2002. MAFFT: a novel method for rapid multiple sequence alignment based on fast Fourier transform. Nucleic Acids Research, 30(14):3059-3066.
+5.	Price, M.N., Dehal, P.S. & Arkin, A.P. 2010. FastTree 2–approximately maximum-likelihood trees for large alignments. PloS one, 5(3):e9490.
+6.	Nguyen, L.-T., Schmidt, H.A., Von Haeseler, A. & Minh, B.Q. 2015. IQ-TREE: a fast and effective stochastic algorithm for estimating maximum-likelihood phylogenies. Molecular biology and evolution, 32(1):268-274.
+7.	RStudio Team, R. 2022. RStudio: integrated development environment for R. [Online]. Available from: http://www.rstudio.com/.
+

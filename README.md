@@ -1,4 +1,4 @@
-# Bushmen-IM
+# Kalahari-IM-Comparison
 Scripts used to analyse temporal changes to the intestinal microbiome of the Ju’|hoansi bushmen of Namibia. See flow diagram below:
 
 <img width="494" alt="Screenshot 2023-04-29 at 13 49 44" src="https://user-images.githubusercontent.com/84008482/235301009-ba6a15a7-f19b-4d5d-b239-a580fa1432c4.png">
